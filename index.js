@@ -23,7 +23,7 @@ function updateContainer(){
     timer = setTimeout(() => {
         x = x - 45;
         updateContainer();
-    }, 4000);
+    }, 3000);
 }
 
 updateContainer();

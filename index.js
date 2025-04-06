@@ -16,6 +16,7 @@ nextEl.addEventListener("click",()=>{
     clearTimeout(timer);
     updateContainer();
 })
+// *{}
 
 function updateContainer(){
     imageContainerEl.style.transform = `perspective(1000px) rotateY(${x}deg)`;
